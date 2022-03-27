@@ -15,15 +15,12 @@ public class GeneratorController : MonoBehaviour
         switch (difficulty)
         {
             case Difficulties.Easy:
-                Debug.Log("FACIL");
                 InvokeRepeating("SpawnEnemy", (spawnDelay + 3f), (spawnInterval + 3f));
                 break;
             case Difficulties.Normal:
-                Debug.Log("NORMAL");
                 InvokeRepeating("SpawnEnemy", spawnDelay, spawnInterval);
                 break;
             case Difficulties.Hard:
-                Debug.Log("DIFICIL");
                 InvokeRepeating("SpawnEnemy", (spawnDelay - 1f), (spawnInterval - 1f));
                 break;
             default:

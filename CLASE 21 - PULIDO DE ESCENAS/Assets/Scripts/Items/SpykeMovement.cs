@@ -13,8 +13,8 @@ public class SpykeMovement : MonoBehaviour
     {
         rbSpike = GetComponent<Rigidbody>();
         rbSpike.AddRelativeForce(Vector3.forward * startForce);
-        //rbSpike.AddTorque(Vector3.up * torqueForce);
-        //rbSpike.AddTorque(Vector3.forward * torqueForce);
+        rbSpike.AddTorque(Vector3.up * torqueForce);
+        rbSpike.AddTorque(Vector3.forward * torqueForce);
     }
  
 }
