@@ -1,0 +1,4 @@
+# REPOSITORIO AFTER 21 - DESARROLLO DE VIDEOJUEGOS
+
+Tema: Pulido de Escena.
+
