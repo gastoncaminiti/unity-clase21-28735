@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Ground
+  - Savepoint
+  - Bullet
+  - Gem
+  - Powerup
   layers:
   - Default
   - TransparentFX
@@ -35,7 +41,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Post Process Layer
   - 
   m_SortingLayers:
   - name: Default
